@@ -23,7 +23,7 @@ quality: gold
 repo: https://github.com/MeltanoLabs/tap-athena
 settings:
 - description: AWS access key ID
-  kind: password
+  sensitive: true
   label: AWS Access Key ID
   name: aws_access_key_id
 - description: AWS region
@@ -31,7 +31,7 @@ settings:
   label: AWS Region
   name: aws_region
 - description: AWS secret access key
-  kind: password
+  sensitive: true
   label: AWS Secret Access Key
   name: aws_secret_access_key
 - description: Compression format to use for batch files.
